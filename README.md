@@ -19,3 +19,7 @@ An accommodation system to help people find suitable apartments based on their n
 - create a verified badge for verified owners and buildings.
 - booking page
 - checkout 
+
+## Figma Designs 
+ will be uploaded later
+ 
