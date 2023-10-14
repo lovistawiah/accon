@@ -3,7 +3,7 @@ import Tile from "@/components/Tile"
 export default function Home() {
   return (
   <div className="pt-0 pr-1 pb-0 pl-[7px] flex bg-white">
-    <Header />
+    {/* <Header /> */}
     {/* filter holder */}
   <section className="flex w-[377px] h-[90vh] px-0 py-[10px] flex-col justify-center items-center gap-[10px] shrink-0">
 

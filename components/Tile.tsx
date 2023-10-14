@@ -12,7 +12,13 @@ const Tile = () => {
         <section className="flex pt-[1px] pr-0 pb-[1px] pl-[5px] flex-wrap text-[15.5px] font-normal flex-1">Two bedroom apartment
         </section>
         {/* location */}
-        <section className="flex pt-[1px] pr-0 pb-[1px] pl-[5px]"></section>
+        <section className="flex pt-[1px] pr-0 pb-[1px] pl-[5px] gap-1">
+          <Image width={16} height={16} src='/images/location.svg' alt="location icon"/>
+          <section className="text-[16px] font-normal leading-normal">Dome Kwabenya
+          </section>
+        </section>
+        {/* apartment description */}
+        <section className="flex h-[34px] pt-[1px] pl-0 pb-[1px] pr-[5px] self-stretch flex-wrap flex-grow flex-shrink-0 overflow-hidden text-ellipsis text-slate-900 whitespace-nowrap text-[13px] font-normal leading-normal">lore adlkjadkl afkadsfkl a faklfjdlkajdlkj lkfah fahdfaldfjlkajdflkj lkajflk ladfhlkdj flkadfahsde reijadlkfjajfie jdaflkjflkad;fjdaslkfjadklfjlkadjflkajsdlkfajsdlfj</section>
        </section>
     </div>
   )
