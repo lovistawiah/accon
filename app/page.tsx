@@ -1,8 +1,9 @@
 import Header from "@/components/Header"
+import Tile from "@/components/Tile"
 export default function Home() {
   return (
-  <div>
-    <Header />
+  <div className="pt-0 pr-1 pb-0 pl-[7px] flex bg-white">
+    {/* <Header /> */}
     {/* filter holder */}
   <section className="flex w-[377px] h-[90vh] px-0 py-[10px] flex-col justify-center items-center gap-[10px] shrink-0">
 
@@ -48,8 +49,9 @@ export default function Home() {
     <button className="w-[248px] h-[39px] rounded-[7px] bg-sky-800 text-white font-[18px]leading-normal hover:bg-sky-700 active:bg-sky-900">Search</button>
     </section>
   </section>
-  
-
+    <section className="flex items-start content-start gap-x-[25px] gap-y-[28px] flex-wrap flex-1 border-l border-solid border-gray-500 h-[100vh] w-[100vw]">
+      <Tile />
+    </section>
   </div>
   )
 }
