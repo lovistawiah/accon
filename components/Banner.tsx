@@ -7,7 +7,7 @@ const Banner = () => {
       <img
         src="/images/banner.jpg"
         alt="background banner"
-        className="w-full h-full rounded-lg bg-blend-lighten brightness-[.6] absolute bg-cover"
+        className="w-full h-full rounded-lg bg-blend-lighten brightness-[.5] absolute bg-cover"
       />
       <section className="absolute pt-[70px] pl-[20px] text-[2.625rem] text-white leading-[46px]">
         Your perfect
