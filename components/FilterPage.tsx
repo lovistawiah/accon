@@ -32,21 +32,21 @@ const FilterPage = () => {
       </section>
       {/* price */}
       <section className="flex justify-center gap-[10px] items-center w-[90%] place-self-center ">
-        <section className="text-base text-slate-800 w-[30%]">Price</section>
+        <section className="text-base text-slate-800 w-auto">Price</section>
         <section className="flex justify-between items-center w-full">
           <input
             type="text"
             name=""
             id=""
             placeholder="Min"
-            className="w-[30%] outline-none pl-1 border-[0.7px] border-slate-400 rounded h-[40px]"
+            className="w-[45%] outline-none pl-1 border-[0.7px] border-slate-400 rounded h-[40px]"
           />
           <input
             type="text"
             name=""
             id=""
             placeholder="Max"
-            className="w-[30%] outline-none pl-1 border-[0.7px] border-slate-400 rounded h-[40px]"
+            className="w-[45%] outline-none pl-1 border-[0.7px] border-slate-400 rounded h-[40px]"
           />
         </section>
       </section>
