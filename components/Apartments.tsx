@@ -2,7 +2,7 @@ import Tile from "./Tile";
 
 const Apartments = () => {
   return (
-    <section className="flex flex-wrap mt-[180px] pl-2 w-full">
+    <section className="flex flex-wrap mt-[180px] pl-2 w-full justify-evenly">
       <Tile img={"/images/house-5.png"} />
       <Tile img={"/images/house-3.png"} />
       <Tile img={"/images/house-5.png"} />

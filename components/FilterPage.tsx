@@ -15,7 +15,10 @@ const FilterPage = () => {
       {/* apartment */}
       <section className="flex gap-[10px] justify-center">
         <select className=" w-[95%]  h-[40px] pl-1 rounded border-[0.7px] border-slate-400 bg-white text-slate-400">
-          <option value="select apartment" className="bg-slate-300 tex-white">
+          <option
+            value="select apartment"
+            className="bg-slate-100 tex-white w-full "
+          >
             select apartment
           </option>
         </select>
